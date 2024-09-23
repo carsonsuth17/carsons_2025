@@ -4,64 +4,33 @@ title: Carson's CSP Pages
 description: Home Page
 hide: true
 ---
+
 {% include nav/home.html %}
 
-<body>
-<h1 style= "color:Thistle;">Fitness Regimen</h1>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 
+<body style="background-color: #f7e7f0; font-family: 'Poppins', sans-serif;">
+    <h1 style="color: #6a5acd; text-align: center;">Fitness Regimen</h1>
 
-<div>
-<button class="pink-button">Categories</button>
-<div>
-
-
-<div>
-    <img alt= "workout" src="/student_2025/images/workout.jpg" style="max-width: 50%; height: auto;">
-</div>
-
-
-<!--ab workout-->
-<a href="{{site.baseurl}}/abs" class="pink-button">Ab Routine</a> <br>
-
-
-<!--leg workout-->
-<div>
-<a href="{{site.baseurl}}/legs/" class="pink-button">Leg Routine</a> <br>
-
-
-<!--arm workout-->
-<div>
-<a href="{{site.baseurl}}/arms/" class="pink-button">Arm Routine</a> <br>
-
-
-</div>
-<body style="background-color: Thistle;">
-
-
-<style>
-.pink-button {
-    border: 2px solid #ff69b4;
-    background-color: #ffe4e1;
-    color: #ff69b4;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 10px 0;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-}
-
-
-.pink-button:hover {
-    background-color: #ff69b4;
-    color: #fff;
-}
-</style>
-
-
-<div>
-
-
-    <br> <h2 style="color:HotPink;">My Journey</h2>
-    <p style="color:HotPink;">The main problems I had throughout this journey the problems with KASM. So much so I bought a new computer so I could actually get these assignments done. In order to make sure I got the work done, I attended office hours nearly everyday to work with my sister (Rowan), Mr. Mortensen, and the CSA students. I notice that in order to be successful in this class I need to be willing to take critism and admit to mistakes when I inevitably make them.  </p>
+    <div style="text-align: center;">
+        <button class="pink-button">Categories</button>
     </div>
+
+    <div style="text-align: center;">
+        <img alt="workout" src="/student_2025/images/workout.jpg" style="max-width: 50%; height: auto; border-radius: 10px;">
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="{{site.baseurl}}/abs" class="pink-button">Ab Routine</a><br>
+        <a href="{{site.baseurl}}/legs/" class="pink-button">Leg Routine</a><br>
+        <a href="{{site.baseurl}}/arms/" class="pink-button">Arm Routine</a><br>
+    </div>
+
+    <h2 style="color: #ff1493; text-align: center;">My Journey</h2>
+    <p style="color: #ff1493; max-width: 600px; margin: 0 auto; text-align: center;">
+        The main problems I encountered during this journey were related to KASM. So much so that I bought a new computer to complete these assignments. To ensure I got the work done, I attended office hours nearly every day to collaborate with my sister (Rowan), Mr. Mortensen, and the CSA students. I’ve learned that to succeed in this class, I need to accept criticism and acknowledge my mistakes when they happen.
+    </p>
+
+    
