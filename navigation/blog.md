@@ -1,6 +1,6 @@
 ---
 layout: blogs 
 title: Blogs
-search_exclude: true
+search_exclude: false
 permalink: /blogs/
 ---
