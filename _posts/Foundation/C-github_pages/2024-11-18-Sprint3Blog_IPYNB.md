@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Sprint 3 Blog
-description: homework and popcorn
+description: A rundown of my sprint 3 review
 categories: ['Collaboration']
 menu: nav/pair_programming.html
 permalink: /3.1and3.4/homework
 type: collab
 comments: True
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
